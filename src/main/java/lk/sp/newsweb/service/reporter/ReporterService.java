@@ -1,4 +1,4 @@
-package lk.sp.newsweb.service;
+package lk.sp.newsweb.service.reporter;
 
 import lk.sp.newsweb.dto.ReporterDto;
 import lk.sp.newsweb.entity.Reporter;

@@ -1,11 +1,15 @@
 package lk.sp.newsweb.dto;
 
 import jakarta.persistence.JoinColumn;
+import lk.sp.newsweb.entity.News;
 import lombok.Data;
+
+import java.math.BigDecimal;
+import java.util.List;
 
 @Data
 public class CategoryDto {
-    private String id;
+    private Long id;
     private String name;
-    private String news_id;
+//    private List<Long> news_id;
 }

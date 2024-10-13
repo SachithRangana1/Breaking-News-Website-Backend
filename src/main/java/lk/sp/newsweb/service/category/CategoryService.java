@@ -1,4 +1,4 @@
-package lk.sp.newsweb.service;
+package lk.sp.newsweb.service.category;
 
 import lk.sp.newsweb.dto.CategoryDto;
 import lk.sp.newsweb.entity.Category;
@@ -11,7 +11,7 @@ public interface CategoryService {
 
     Category updateCategory(Long id, CategoryDto categoryDto);
 
-    Category getCategoryById(Long id, CategoryDto categoryDto);
+    Category getCategoryById(Long id);
 
     List<Category> getAllCategory();
 
